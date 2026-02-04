@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.controls {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+#item-select {
+    margin-bottom: 10px;
+}
+
+#optimize-btn {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#optimize-btn:hover {
+    background: #45a049;
+}
+
+.results {
+    margin-top: 20px;
+}
+
+#route-steps {
+    margin: 15px 0;
+    padding: 15px;
+    background: #e9f7ef;
+    border-radius: 5px;
+}
+
+.route-step {
+    padding: 8px;
+    margin: 5px 0;
+    background: white;
+    border-left: 4px solid #4CAF50;
+}
+
+#route-summary {
+    font-weight: bold;
+    margin: 15px 0;
+    padding: 10px;
+    background: #e3f2fd;
+    border-radius: 5px;
+}
+
+.visualization {
+    margin-top: 30px;
+}
+
+#route-canvas {
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    background: white;
+}
